@@ -14,15 +14,8 @@ The Vicsek model is a mathematical model that illustrates the collective motion 
 | Parameter | Definition | Range |
 |-----------|------------|-------|
 | N  | number of particles | any positive integer |
-| eta | noise intensity | [0,1] |
+| $\eta$ | noise intensity | [0,1] |
 | r | radius to look for neighbors | [0,1] |
-
-
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
 
 
 
