@@ -3,10 +3,10 @@
 
 The Vicsek model is a mathematical model that illustrates the collective motion of particles. The dynamics of the particles in them model depend on the particle density and instensity of noise in the system. Every particle in the model is initialized with a random angle &theta; between [-&pi;, &pi;]. At every time step, the particle will find all of its neighbor particles, defined as any particle within a specified radius r. It will average its angle vector with all of its neighbors. The particle will then move in the direction of the new angle plus a random perturbation. The instensity of the random perturbation is defined by &eta;.
 
+<img src="https://github.com/alsignoriello/vicsek_model/blob/master/images/r1.jpg" style="float: left;">
 
-<!-- ![r1](https://github.com/alsignoriello/vicsek_model/blob/master/images/r1.png) ![r2](https://github.com/alsignoriello/vicsek_model/blob/master/images/r2.png)
+<img src="https://github.com/alsignoriello/vicsek_model/blob/master/images/r2.jpg" style="float: right;">
 
- -->
 
 # Equations
 
@@ -14,17 +14,6 @@ v&#770;(t + 1) = < v&#770;(t) ><sub> r </sub>  + &eta;&#770;
 
 &eta;&#770; = (cos &theta;, sin &theta; )
 
-
-
-<!-- 
-![equation](https://github.com/alsignoriello/vicsek_model/blob/master/images/equation.png)
-![angle](https://github.com/alsignoriello/vicsek_model/blob/master/images/angle_vector.png)
- -->
-
-<!-- 
-<img src="https://github.com/alsignoriello/vicsek_model/blob/master/images/equation.png" width="800" height="100" />
-
-<img src="https://github.com/alsignoriello/vicsek_model/blob/master/images/angle_vector.png" width="500" height="100" /> -->
 
 
 # Parameters
