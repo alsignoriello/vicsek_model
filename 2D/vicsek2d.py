@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import numpy as np
-from geometry import rand_angle
+from geometry import rand_angle, vector_2_angle
 from neighbor import *
 import sys
 
@@ -27,17 +27,19 @@ T = 5.
 particles = np.random.uniform(0,1,size=(N,2))
 
 # initialize random angles
-thetas = np.zeros(N)
+thetas = np.zeros((N,1))
 for i,theta in enumerate(thetas):
-	thetas[i] = rand_angle()
+	thetas[i,0] = rand_angle()
 
 
 # Currently run until time ends
 while t < T:
 
 	print t
-	# save coordinates to text file
-	np.savetxt("%.2f.txt" % t, particles)
+	# save coordinates & corresponding thetas to text file
+	output = np.concatenate((particles,thetas),axis=1)
+	np.savetxt("%.2f.txt" % t, output)
+
 
 	for i,(x,y) in enumerate(particles):
 
@@ -54,6 +56,9 @@ while t < T:
 
 		# move to new position 
 		particles[i,:] += delta_t * (avg + noise)
+
+		# get new theta
+		thetas[i] = vector_2_angle(avg + noise)
 
 		# assure correct boundaries (xmax,ymax) = (1,1)
 		if particles[i,0] < 0:

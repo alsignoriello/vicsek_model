@@ -3,7 +3,9 @@ import numpy as np
 from math import atan2, pi, sin, cos, sqrt
 
 
-def vector_2_angle(x,y):
+def vector_2_angle(v):
+	x = v[0]
+	y = v[1]
 	return atan2(y,x)
 
 

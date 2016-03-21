@@ -11,22 +11,22 @@ echo "N =" $1
 echo "eta =" $2
 echo "r =" $3
 
+folder="simulation2"
 
-# make directory for current simulation
-# mkdir simulation
-cd simulation/
+# # make directory for current simulation
+mkdir $folder
+cd $folder/
 
-# save coordinates for every time step
-# mkdir coordinates/
-cd coordinates
+# # save coordinates & thetas for every time step
+mkdir particles
+cd particles
 
-# run vicsek simulation
+# # run vicsek simulation
 python $HOME/vicsek2d.py $N $eta $r 
 
-# make folder for plots
+# # make folder for plots
 cd ..
 mkdir plots
-cd plots/
 
 # plot coordinates
-python $HOME/plot2d.py
+python $HOME/plot.py $eta

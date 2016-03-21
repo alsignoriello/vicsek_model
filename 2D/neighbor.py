@@ -25,8 +25,8 @@ def get_average(thetas, neighbors):
 	n_neighbors = len(neighbors)
 	avg_vector = np.zeros(2)
 
-	for n in neighbors:
-		theta = thetas[n]
+	for index in neighbors:
+		theta = thetas[index,0]
 		theta_vec = angle_2_vector(theta)
 		avg_vector += theta_vec
 
