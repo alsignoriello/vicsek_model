@@ -10,7 +10,7 @@ The Vicsek model is a mathematical model that illustrates the collective motion 
 
 # Equations
 
-v&#770;(t + 1) = < v&#770; (t) >_{r} + n&#770;
+v&#770;(t + 1) = < v&#770;(t) ><sub> r </sub>  + &eta;&#770;
 
 
 
