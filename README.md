@@ -9,11 +9,14 @@ The Vicsek model is a mathematical model that illustrates the collective motion 
  -->
 
 # Equations
-
+<!-- 
 ![equation](https://github.com/alsignoriello/vicsek_model/blob/master/images/equation.png){ width: 100px; }
 
 ![angle](https://github.com/alsignoriello/vicsek_model/blob/master/images/angle_vector.png){ width: 100px; }
+ -->
 
+
+<img src="https://github.com/alsignoriello/vicsek_model/blob/master/images/equation.png" width="200" height="100" />
 
 
 # Parameters
