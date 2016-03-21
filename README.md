@@ -12,6 +12,8 @@ The Vicsek model is a mathematical model that illustrates the collective motion 
 
 v&#770;(t + 1) = < v&#770;(t) ><sub> r </sub>  + &eta;&#770;
 
+&eta;&#770; = (cos &theta;, sin &theta; )
+
 
 
 <!-- 
