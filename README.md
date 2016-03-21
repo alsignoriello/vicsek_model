@@ -43,6 +43,7 @@ sh. run.sh [N] [&eta;] [r]
 # Requirements
 
 numpy (1.8.1)
+
 matplotlib (1.3.1)
 
 
