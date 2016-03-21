@@ -9,15 +9,20 @@ The Vicsek model is a mathematical model that illustrates the collective motion 
  -->
 
 # Equations
+
+$ \hat{v} = < &eta; > $ 
+
+
+
 <!-- 
 ![equation](https://github.com/alsignoriello/vicsek_model/blob/master/images/equation.png)
 ![angle](https://github.com/alsignoriello/vicsek_model/blob/master/images/angle_vector.png)
  -->
 
-
+<!-- 
 <img src="https://github.com/alsignoriello/vicsek_model/blob/master/images/equation.png" width="800" height="100" />
 
-<img src="https://github.com/alsignoriello/vicsek_model/blob/master/images/angle_vector.png" width="500" height="100" />
+<img src="https://github.com/alsignoriello/vicsek_model/blob/master/images/angle_vector.png" width="500" height="100" /> -->
 
 
 # Parameters
