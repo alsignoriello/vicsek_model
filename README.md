@@ -4,14 +4,14 @@
 The Vicsek model is a mathematical model that illustrates the collective motion of particles. The dynamics of the particles in them model depend on the particle density and instensity of noise in the system. 
 
 
-![r1](https://github.com/https://github.com/alsignoriello/vicsek_model/r1.png) ![r2](https://github.com/https://github.com/alsignoriello/vicsek_model/r2.png)
+![r1](https://github.com/alsignoriello/vicsek_model/tree/master/images/r1.png) ![r2](https://github.com/alsignoriello/vicsek_model/tree/master/images/r2.png)
 
 
 
 # Equations
-![equation](https://github.com/https://github.com/alsignoriello/vicsek_model/equation.png)
+![equation](https://github.com/alsignoriello/vicsek_model/tree/master/images/equation.png)
 
-![angle](https://github.com/https://github.com/alsignoriello/vicsek_model/angle_vector.png)
+![angle](https://github.com/alsignoriello/vicsek_model/tree/master/images/angle_vector.png)
 
 
 
