@@ -1,3 +1,4 @@
 *.pyc
 simulation*/
 .matplotlib/
+*.jpg
